@@ -1,0 +1,1 @@
+export { zipIntoObjects } from './arrays';
