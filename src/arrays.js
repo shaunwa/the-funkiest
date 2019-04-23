@@ -4,16 +4,3 @@ export const zipIntoObjects = (...properties) =>
             ...acc,
             [key]: values[i],
         }), {}));
-
-const testProperties = [{
-    key: 'name',
-    values: ['Bob', 'Carl', 'Bart', 'Methuselah'],
-}, {
-    key: 'age',
-    values: [22, 34, 56, 947],
-}, {
-    key: 'smoker',
-    values: [true, false, false, true],
-}];
-
-console.log(zipIntoObjects(...testProperties));
