@@ -12,6 +12,10 @@
   ],
   "author": "Shaun Wassell",
   "license": "ISC",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/shaunwa/the-funkiest"
+  },
   "devDependencies": {
     "@babel/core": "7.4.3",
     "@babel/node": "7.2.2",
